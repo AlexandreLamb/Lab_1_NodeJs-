@@ -2,5 +2,7 @@ module.exports = {
 
     //Hello handlers
     ReadHello: require('./hello/Read'),
-    ReadDefault: require('./default/Read') 
+
+    // Default handlers
+    ReadDefault: require('./default/Read') ,
 };

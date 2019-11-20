@@ -19,6 +19,7 @@
   },
   "_moduleAliases": {
     "@root": ".",
-    "@controllers": "./backend/routes/controllers"
+    "@controllers": "./backend/routes/controllers",
+    "@middleware": "./backend/middleware/controllers"
   }
 }
