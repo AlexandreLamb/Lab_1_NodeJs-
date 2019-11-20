@@ -1,3 +1,4 @@
+const aboutMe = require('./aboutMe');
 /**
  * Request structure
  * req = { body: { } }
@@ -20,7 +21,11 @@ const secure = async req => {
    * PROCESS :
    */
   const process = async inputs => {
-    const param = "hello " + inputs.name;
+    if("Alexandre" == inputs.name){
+      param = aboutMe;
+    }else{
+      param = "hello " + inputs.name;
+    }
     return param ;
   };
   

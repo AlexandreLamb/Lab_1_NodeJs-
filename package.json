@@ -2,9 +2,9 @@
   "name": "lambert_sartoris",
   "version": "1.0.0",
   "description": "Lab 1, simple app that return hello + name",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "dev": "cross-env NODE_ENV=development nodemon backend/index.js"
+    "dev": "cross-env NODE_ENV=development nodemon backend/server.js"
   },
   "author": "",
   "license": "ISC",

@@ -17,14 +17,14 @@ after that create .env file at root directory like this
 
 ```env
 PORT= XXXX
-MY_NAME= XXXXX
 ```
 
 ## Run the app
-
+devloppement mode
 ```bash
-
+npm run dev
 ```
+
 
 ## Author
 
