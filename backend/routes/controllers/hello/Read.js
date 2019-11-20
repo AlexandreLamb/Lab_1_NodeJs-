@@ -2,8 +2,10 @@ const aboutMe = require('./utils/aboutMe');
 const MY_NAME = "Alexandre"
 /**
  * Request structure
- * req = { body: { } }
- * res = { json: { } }
+ * req = { body: { } 
+ *         param: name: string 
+ *        }
+ * res = { json: { hello + 'name' } }
  */
 
 /**
@@ -11,7 +13,7 @@ const MY_NAME = "Alexandre"
  */
 const secure = async req => {
     const inputs = {};
-    if(req.query.name === undefined || req.query.name === null){
+    if(req.query.name === undefined || req.query.name === null || req.query.name === ''){
       throw new Error('Name is null or undefined');
     }
     inputs.name = req.query.name;
