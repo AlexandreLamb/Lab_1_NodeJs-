@@ -12,11 +12,22 @@ Lambert Alexandre Louis Sartoris
 ## Project structure
 ```bash
 |-- backend
-|   |-- routes
+    |-- routes
         |-- controllers
             |-- default
+                |-- Read.js
+                |-- utils
+                    index.html
             |-- hello
-|-- node_modules
+                |-- Read.js
+        |-- api.js
+    |-- app.js
+    |-- server.js
+|-- app.js 
+|-- package.json
+|-- README.md
+
+
 
 
 ```
