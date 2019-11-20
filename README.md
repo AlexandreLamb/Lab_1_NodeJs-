@@ -62,7 +62,7 @@ Response : Hello [replace_by_random_name]
 ```bash
 curl http://localhost:3030/api/hello/Read/?name=[MY_NAME]
 ```
-Response : HTML page about me
+Response : JSON information about me
 
 ```bash
 curl http://localhost:3030/api/default/Read/
