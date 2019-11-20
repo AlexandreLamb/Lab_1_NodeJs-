@@ -1,16 +1,39 @@
-# LAB 1 Node JS 
-Simple app made with nodeJS + Express 
+# LAB 1 Node JS
 
-## Installation 
-npm method 
+Simple app made with nodeJS + Express
+
+## Installation
+
 ```bash
 npm install
 ```
-## Author 
+
+or
+
+```bash
+yarn install
+```
+after that create .env file at root directory like this 
+
+```env
+PORT= XXXX
+MY_NAME= XXXXX
+```
+
+## Run the app
+
+```bash
+
+```
+
+## Author
+
 Lambert Alexandre Louis Sartoris
 
 ## Project structure
+
 ```bash
+/Lab1_NodeJS
 |-- backend
     |-- routes
         |-- controllers
@@ -23,11 +46,25 @@ Lambert Alexandre Louis Sartoris
         |-- api.js
     |-- app.js
     |-- server.js
-|-- app.js 
+|-- app.js
 |-- package.json
 |-- README.md
-
-
-
-
 ```
+
+## Utilisation
+
+
+```bash
+curl http://localhost:3030/api/hello/Read/?name=[replace_by_random_name]
+```
+Response : Hello [replace_by_random_name]
+
+```bash
+curl http://localhost:3030/api/hello/Read/?name=[MY_NAME]
+```
+Response : HTML page about me
+
+```bash
+curl http://localhost:3030/api/default/Read/
+```
+Response : HTML page about the app functionnal
