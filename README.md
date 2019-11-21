@@ -35,12 +35,18 @@ Lambert Alexandre Louis Sartoris
 ```bash
 /Lab1_NodeJS
 |-- backend
+    |-- middleware
+        |-- controllers
+            |-- unmatched
+                |-- ReadUnmatched.js
+                |-- utils
+                    404.html
     |-- routes
         |-- controllers
             |-- default
                 |-- Read.js
                 |-- utils
-                    index.html
+                    HowItWork.html
             |-- hello
                 |-- Read.js
         |-- api.js
