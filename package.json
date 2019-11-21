@@ -4,7 +4,7 @@
   "description": "Lab 1, simple app that return hello + name",
   "main": "server.js",
   "scripts": {
-    "dev": "cross-env NODE_ENV=development nodemon backend/server.js"
+    "dev": "nodemon backend/server.js"
   },
   "author": "",
   "license": "ISC",
@@ -13,9 +13,6 @@
     "express": "^4.17.1",
     "module-alias": "^2.2.2",
     "nodemon": "^1.19.4"
-  },
-  "devDependencies": {
-    "cross-env": "^6.0.3"
   },
   "_moduleAliases": {
     "@root": ".",
